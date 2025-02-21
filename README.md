@@ -37,9 +37,7 @@ O Mercado Livre enfrenta desafios críticos relacionados ao sistema de CEP:
 #### 4. Arquitetura da Solução
 
 ```
-[Cliente] → [API Gateway]
-                ↓
-    [Load Balancer + Rate Limiting]
+[Cliente] → [API Gateway]            
                 ↓
     [Serviço de Validação CEP]
         ↙        ↓         ↘
